@@ -1,0 +1,57 @@
+ul{
+    margin: 20px;
+    justify-content: space-between;
+}
+a:hover{
+    color: blue;    
+}
+input{
+    margin: 30px;
+}
+input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.788);
+    border-radius: 50px;
+    border-width: 0px;
+    box-shadow: rgba(0, 0, 0, 0.473);
+}
+input[type="text"]{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%) ;
+    top: 45%;
+    transform: translatex(-50%);
+}
+img{
+    position: absolute;
+    left: 47%;
+    transform: translateX(-50%) ;
+    top: 15%;
+    transform: translatex(-50%);
+}
+.button-1{
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50%) ;
+    top: 55%;
+    transform: translatex(-50%);
+}
+.button-2{
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) ;
+    top: 55%;
+    transform: translatex(-50%);
+}
+.button-3{
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%) ;
+    top: 55%;
+    transform: translatex(-50%);
+}

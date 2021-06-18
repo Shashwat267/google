@@ -29,23 +29,23 @@
      <table>
        <tr>
          <td><label for="all">all of these word:</label></td>
-         <td style="width: 600px;"class="input"><input style="width:400px;" id="all" type="text"></td>
+         <td style="width: 600px;"class="input"><input style="width:400px;" name="as_q" id="all" type="text"></td>
        </tr>
        <tr>
         <td><label for="exact">this exact word of phrase:</label></td>
-        <td style="width:600px;"class="input"><input style="width:400px;" id="exact" type="text"></td>
+        <td style="width:600px;"class="input"><input style="width:400px;" name="as_epq" id="exact" type="text"></td>
       </tr>
     <tr>
       <td><label for="any">any of these words:</label></td>
-      <td style="width: 600px;"class="input"><input style="width:400px;" id="any" type="text"></td>
+      <td style="width: 600px;"class="input"><input style="width:400px;" name="as_oq" id="any" type="text"></td>
     </tr>
       <tr>
         <td><label for="none">none of these word:</label></td>
-        <td style="width: 600px;" class="input"><input style="width:400px;" id="none" type="text"></td>
+        <td style="width: 600px;" class="input"><input style="width:400px;" name="as_eq" id="none" type="text"></td>
       </tr>
       <tr>
         <td><label for="num">numbers ranging from:</label></td>
-        <td style="width: 600px;" class="input"><input id="num" type="text">to <input type="text"></td>
+        <td style="width: 600px;" class="input"><input name="as_nlo" id="num" type="text">to <input name="as_nhi" type="text"></td>
       </tr>
      </table>
    
@@ -56,8 +56,8 @@
          <tr>
 
         
-         <td><label for="lr">language:</label></td>
-        <td class="input"> <input style="width: 300px;" id="lr"name="lr" list="language">
+         <td><label for="lir">language:</label></td>
+        <td class="input"> <input style="width: 300px;" name="lr" id="lir" list="language">
           <datalist id="language" >
             <option value="any langugage">
             <option value="Afrikaans">
@@ -124,8 +124,8 @@
         </td>
       </tr>
         <tr>
-        <td ><label for="cr">region:</label></td>
-         <td class="input"> <input style="width: 300px;" id="cr" name="cr" list="country">
+        <td ><label for="cir">region:</label></td>
+         <td class="input"> <input style="width: 300px;" name="cr" id="cir"  list="country">
           <datalist id="country" >
            <option value="any region">
            <option value="Africa">
@@ -181,7 +181,7 @@
         <tr>
           <td ><label for="last">last updated:</label></td>
           <td class="input">
-            <input style="width: 300px;" id="last" name="as_qdr" list="last-updated">
+            <input style="width: 300px;" name="as_qdr" id="last" list="last-updated">
             <datalist id="last-updated">
                 <option value="any time">
                 <option value="24 hours ago">
@@ -192,16 +192,16 @@
           </td>
         </tr>
         <tr>
-          <td><label for="site">site or domain:</label>></td>
+          <td><label for="site">site or domain:</label></td>
           <td class="input">
-            <input style="width: 300px;" id="site" name="as_sitesearch" type="url">
+            <input style="width: 300px;" name="as_sitesearch" id="site"  type="url">
           </td>
         </tr>
         <tr>
-          <td><label for="terms">terms appering:</label>></td>
-          <td class="input">
-            <input style="width: 300px;" id="terms"name="occt" list="terms">
-            <datalist id="terms">
+          <td><label for="terms">terms appearing:</label></td>
+          <td >
+            <input style="width: 300px;" name="as_occt" id="terms" list="app">
+            <datalist id="app">
                 <option value="anywhere in the page">
                 <option value="in the title of the page">
                 <option value="in the text of the page">
@@ -211,10 +211,10 @@
           </td>
         </tr>
         <tr>
-          <td><label for="safe">safe search:</label></td>
-          <td class="input">
-            <input style="width: 300px;" id="safe" name="as_safesearch_input" list="safe">
-            <datalist id="safe">
+          <td><label for="safee">safe search:</label></td>
+          <td>
+            <input style="width: 300px;" name="safe" id="safee" list="saf">
+            <datalist id="saf">
                 <option value="Show explicit Result">
                 <option value="Hide explicit result">
             </datalist>
@@ -223,8 +223,8 @@
         <tr>
           <td><label for="file">file type:</label></td>
           <td class="input">
-            <input style="width: 300px;" id="file" name="as_filetype" list="file">
-            <datalist id="file">
+            <input style="width: 300px;" name="as_filetype_input" id="file" list="fil">
+            <datalist id="fil">
               <option value="any format">
               <option value="Adobe Acrobat PDF(.pdf)">
               <option value="Adobe Postscript (.ps)">
@@ -242,7 +242,7 @@
         <tr>
           <td><label for="user">user rights:</label></td>
           <td class="input">
-            <input style="width: 300px;" id="user" name="sur" list="rights">
+            <input style="width: 300px;" name="sur" id="user" list="rights">
             <datalist id="rights">
                 <option style="overflow: scroll;" value="not filtered by licence">
                 <option style="overflow: scroll;" value="free to use or share">
@@ -278,3 +278,4 @@
 
 </body>
 </html>
+    

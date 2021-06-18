@@ -55,3 +55,109 @@ img{
     top: 55%;
     transform: translatex(-50%);
 }
+@media screen and (max-device-width:600px),screen and (min-device-width:500px) {
+    ul{
+        justify-content: flex-start;
+    }
+    img{
+        width: 50%;
+        height: 30%;
+        position: absolute;
+        left: 47%;
+        transform: translateX(-50%) ;
+        top: 20%;
+        transform: translatex(-50%);
+        }
+    input[type="text"]{
+        width: 80%;
+        height: 6%;
+        justify-self: center;
+    }
+    input[type="submit"]{
+        height: 7%;
+        justify-self: center;
+        margin-top: 10%;
+        background-color: whitesmoke;
+        border-color: grey;
+        border-radius: 1px;
+        color: none;
+        height: 4%;
+    }
+    .button-2{
+        width:40% ;
+        position: absolute;
+        left: 80%;
+        transform: translateX(-50%) ;
+        top: 55%;
+        transform: translatex(-50%);
+    }
+    .button-1{
+        width: 10%;
+        position: absolute;
+        left: 20%;
+        transform: translateX(-50%) ;
+        top: 55%;
+        transform: translatex(-50%);
+    
+    }
+}
+
+@media screen and (max-device-width:500px) {
+    img{
+        width: 50%;
+        height: 20%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) ;
+        top: 30%;
+        transform: translatex(-50%);
+    }
+    .button-1{
+       width: 5%;
+       position: absolute;
+       left: 0%;
+      
+       top: 55%;
+       transform: translatex(-50%);
+    }
+    .button-2{
+        width: 10%;
+        position: absolute;
+        left: 60%;
+        transform: translateX(-50%) ;
+        top: 55%;
+        transform: translatex(-50%);
+    }
+}
+@media screen and (max-device-width: 800px),screen and (min-device-width:600px){
+    .button-1{
+        width: 10%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 55%;
+        transform: translatex(-50%);
+    }
+    .button-2{
+        width: 10%;
+        position: absolute;
+        left: 60%;
+        transform: translateX(-50%) ;
+        top: 55%;
+        transform: translatex(-50%);
+    }
+    
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    background-color:white;
+    color:black;
+   
+}
+
+
+
